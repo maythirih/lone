@@ -1,0 +1,99 @@
+:root{
+    --primay-color: #5efc03;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    overflow: hidden;
+}
+
+.money-img{
+    width: 150px;
+}
+
+h1{
+    color: var(--primay-color);
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currency select{
+    font-size: 16px;
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-color: transparent;
+    background-image: url("../img/downarrow.png");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 90%;
+}
+
+.btn{
+    background-color: var(--primay-color);
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:focus, input:focus,select:focus{
+    outline: 0;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.swap-rate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.currency input{
+    border:none;
+    background-color: transparent;
+    text-align: right;
+
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .currency input{
+        width: 200px;
+    }
+}
+
+
+
+

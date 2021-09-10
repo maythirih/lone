@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Slider</title>
+
+    <!--    fontawesome css1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<nav>
+    <div class="logo">
+        <img src="img/profile/user.png" alt="profile"/>
+    </div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Protfolo</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contanct</a></li>
+    </ul>
+</nav>
+
+<header>
+    <button id="toggle" class="toggle">
+        <i class="fas fa-bars fa-2x"></i>
+    </button>
+
+    <h1>My Landing Page</h1>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+        layouts and visual mockups.
+    </p>
+    <button id="open" class="btn">Sign Up</button>
+</header>
+
+<div class="container">
+    <h2>What is this landing page</h2>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+        layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+        industries for previewing layouts and visual mockups.
+    </p>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+        layouts and visual mockups.
+    </p>
+
+    <h2>Tell Me More</h2>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+        layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+        industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the
+        graphic, print, and publishing industries for previewing layouts and visual mockups.
+    </p>
+
+    <h2>Benifits</h2>
+    <ul>
+        <li>Lifetime Access</li>
+        <li>30 Days Money Back</li>
+        <li>Tailored Customer Support</li>
+    </ul>
+
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+        layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+        industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the
+        graphic, print, and publishing industries for previewing layouts and visual mockups.
+    </p>
+</div>
+
+
+<!--Start Modal Area-->
+<!--Start Singup Area-->
+<div id="modal" class="modal-container">
+    <div class="modal">
+        <button id="close" class="close-btn">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="modal-header">
+            <h3>Sing Up</h3>
+        </div>
+
+        <div class="modal-content">
+            <p>Register with us to get offers,support and more</p>
+
+            <form class="modal-form" action="" method="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-input" placeholder="Enter Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" class="form-input" placeholder="Enter Your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="form-input" placeholder="Enter Your Password">
+                </div>
+
+                <div class="form-group">
+                    <label for="cfmpassword">Comfrim Password</label>
+                    <input type="password" name="cfmpassword" id="cfmpassword" class="form-input" placeholder="Comfrim Your Password">
+                </div>
+
+                <input type="submit" value="submit" class="submit-btn"/>
+            </form>
+        </div>
+    </div>
+</div>
+<!--End Singup area-->
+<!--End Modal Area-->
+
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
